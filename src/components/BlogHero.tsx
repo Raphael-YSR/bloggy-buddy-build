@@ -13,7 +13,7 @@ const BlogHero = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-hero flex items-center justify-center px-4">
+    <section className="min-h-screen bg-black flex items-center justify-center px-4">
       <div className="max-w-4xl mx-auto text-center">
         {/* Logo */}
         <div className="mb-16">
