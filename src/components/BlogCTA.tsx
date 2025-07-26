@@ -12,7 +12,7 @@ const BlogCTA = () => {
   };
 
   return (
-    <section className="py-20 px-4 bg-gradient-hero">
+    <section className="py-20 px-4 bg-black">
       <div className="max-w-4xl mx-auto">
         {/* Author Info */}
         <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
