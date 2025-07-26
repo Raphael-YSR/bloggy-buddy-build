@@ -22,7 +22,7 @@ const BlogHero = () => {
           </div>
           <div className="text-right">
             <Button variant="hero" size="sm" className="text-sm">
-              Mapping the Future: A Geomatics & GIS Journey
+              Mapping the Future
             </Button>
           </div>
         </div>

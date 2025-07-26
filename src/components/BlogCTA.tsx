@@ -37,10 +37,18 @@ const BlogCTA = () => {
 
         {/* Social Links */}
         <div className="flex justify-center gap-4 mb-16">
-          <Button variant="hero" size="sm">Instagram</Button>
-          <Button variant="hero" size="sm">Twitter</Button>
-          <Button variant="hero" size="sm">GitHub</Button>
-          <Button variant="hero" size="sm">LinkedIn</Button>
+          <a href="https://instagram.com/newhathaway" target="_blank" rel="noopener noreferrer">
+            <Button variant="hero" size="sm">Instagram</Button>
+          </a>
+          <a href="https://twitter.com/newhathaway" target="_blank" rel="noopener noreferrer">
+            <Button variant="hero" size="sm">Twitter</Button>
+          </a>
+          <a href="https://github.com/Raphael-YSR" target="_blank" rel="noopener noreferrer">
+            <Button variant="hero" size="sm">GitHub</Button>
+          </a>
+          <a href="https://linkedin.com/in/newhathaway" target="_blank" rel="noopener noreferrer">
+            <Button variant="hero" size="sm">LinkedIn</Button>
+          </a>
         </div>
 
         {/* CTA Section */}
