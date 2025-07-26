@@ -73,8 +73,10 @@ export default {
 				'gradient-card': 'var(--gradient-card)'
 			},
 			fontFamily: {
-				'heading': ['Inter', 'system-ui', 'sans-serif'],
-				'body': ['Inter', 'system-ui', 'sans-serif']
+				'urbanist': ['Urbanist', 'system-ui', 'sans-serif'],
+				'heading': ['Urbanist', 'system-ui', 'sans-serif'],
+				'body': ['Urbanist', 'system-ui', 'sans-serif'],
+				'sans': ['Urbanist', 'system-ui', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
