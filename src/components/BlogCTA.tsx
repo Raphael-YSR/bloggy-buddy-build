@@ -19,20 +19,18 @@ const BlogCTA = () => {
           <div className="w-32 h-32 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center overflow-hidden">
             <img 
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
-              alt="Dan Koe"
+              alt="Raphael"
               className="w-full h-full object-cover"
             />
           </div>
           
           <div className="flex-1 text-center md:text-left">
-            <h3 className="text-2xl font-bold text-white mb-3">Hey, I'm Dan.</h3>
+            <h3 className="text-2xl font-bold text-white mb-3">Hey, I'm Raphael.</h3>
             <p className="text-brand-muted mb-4 leading-relaxed">
-              I'm the author of The Art of Focus, co-founder of Kortex, and writer obsessed with the 
-              mind, the internet, and the future.
+              I'm a Geomatics & GIS student passionate about the intersection of spatial data, artificial intelligence, and sustainable development.
             </p>
             <p className="text-brand-muted leading-relaxed">
-              Previously, I was a brand advisor for creators and influencers. Now I teach writing as a 
-              way to discover your life's work, secure your future, and enjoy a creative lifestyle.
+              Previously, I focused on surveying, cartography, and spatial databases. Now, I write to explore how geospatial technology is reshaping land use, urban systems, and decision-making in a rapidly digitizing world.
             </p>
           </div>
         </div>
@@ -41,18 +39,17 @@ const BlogCTA = () => {
         <div className="flex justify-center gap-4 mb-16">
           <Button variant="hero" size="sm">Instagram</Button>
           <Button variant="hero" size="sm">Twitter</Button>
-          <Button variant="hero" size="sm">YouTube</Button>
+          <Button variant="hero" size="sm">GitHub</Button>
           <Button variant="hero" size="sm">LinkedIn</Button>
         </div>
 
         {/* CTA Section */}
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Gain A New Perspective On Life & Business
+            Gain a New Perspective on Maps & Meaning
           </h2>
           <p className="text-xl text-brand-muted mb-8 max-w-2xl mx-auto">
-            Join 120,000+ changing their life with theory and practice about the mind, 
-            the internet, and the future.
+            Join 120,000+ thinkers exploring geospatial innovation, AI applications, and real-world GIS practices that are building the future.
           </p>
 
           {/* Newsletter Signup */}
@@ -72,7 +69,7 @@ const BlogCTA = () => {
             </div>
             <p className="text-sm text-brand-muted mt-3 flex items-center justify-center gap-2">
               <span>🔗</span>
-              Receive 2 free letters a week
+              Receive 2 free geospatial letters every week
             </p>
           </form>
         </div>
@@ -81,13 +78,12 @@ const BlogCTA = () => {
         <div className="text-center pt-16 border-t border-white/10">
           <div className="flex items-center justify-center gap-4 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-full backdrop-blur-sm border border-white/20 flex items-center justify-center">
-              <span className="text-lg font-bold text-white italic">DK</span>
+              <span className="text-lg font-bold text-white italic">RG</span>
             </div>
           </div>
-          <h3 className="text-2xl font-bold text-white mb-2">Work Less. Earn More. Enjoy Life.</h3>
+          <h3 className="text-2xl font-bold text-white mb-2">Think Spatial. Build Smart. Lead Change.</h3>
           <p className="text-brand-muted">
-            I dive deep into human potential, lifestyle design, and one-person businesses to give 
-            you a unique, digestible way of improving your life in 10 minutes or less.
+            I dive deep into spatial analysis, location intelligence, and real-world GIS projects — giving you smart, digestible insights that improve your thinking in 10 minutes or less.
           </p>
         </div>
       </div>

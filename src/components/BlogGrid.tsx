@@ -15,54 +15,54 @@ const BlogGrid = () => {
   const blogPosts: BlogPost[] = [
     {
       id: "1",
-      title: "You have about 36 months to make it",
-      excerpt: "Why everyone is racing to get rich",
-      author: "Dan Koe",
+      title: "You Have About 36 Months to Map It Right",
+      excerpt: "Why everyone's racing to digitize land, cities, and systems.",
+      author: "LVH",
       date: "July 22, 2025",
       image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=800&h=600&fit=crop",
       readTime: "5 min"
     },
     {
       id: "2", 
-      title: "You can learn anything in 2 weeks",
-      excerpt: "I know it sounds insane.",
-      author: "Dan Koe",
+      title: "You Can Learn Any GIS Skill in 2 Weeks",
+      excerpt: "From remote sensing to QGIS — the mindset that makes it possible.",
+      author: "LVH",
       date: "July 17, 2025",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
       readTime: "8 min"
     },
     {
       id: "3",
-      title: "These 3 Decisions Will Determine If You Get Rich",
-      excerpt: "Delusional goals rewire your brain.",
-      author: "Dan Koe",
+      title: "These 3 Technologies Will Decide Your GIS Career",
+      excerpt: "AI, automation, and open data are changing the game.",
+      author: "LVH",
       date: "July 10, 2025", 
       image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=800&h=600&fit=crop",
       readTime: "6 min"
     },
     {
       id: "4",
-      title: "20-30 Years Old Is The Tutorial Phase, Don't F*ck It Up",
-      excerpt: "Avoid 3 things, do 3 things, don't get mad.",
-      author: "Dan Koe",
+      title: "20–30 Is the Tutorial Phase for Geospatial Leaders",
+      excerpt: "Avoid 3 career traps, build 3 key skills, stay future-ready.",
+      author: "LVH",
       date: "July 3, 2025",
       image: "https://images.unsplash.com/photo-1473091534298-04dcbce3278c?w=800&h=600&fit=crop",
       readTime: "10 min"
     },
     {
       id: "5",
-      title: "How To Think Like A Genius (The Map Of All Knowledge)",
-      excerpt: "Become a second-tier thinker.",
-      author: "Dan Koe", 
+      title: "How to Think Like a Spatial Analyst (The Map of All Knowledge)",
+      excerpt: "From cartography to cognitive maps — become a second-tier geospatial thinker.",
+      author: "LVH", 
       date: "June 26, 2025",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop",
       readTime: "12 min"
     },
     {
       id: "6",
-      title: "This single decision will determine most of your life",
-      excerpt: "Why indecisiveness is death.",
-      author: "Dan Koe",
+      title: "This One Decision Will Define Your GIS Path",
+      excerpt: "Why clarity in specialization can shape your entire career.",
+      author: "LVH",
       date: "June 23, 2025",
       image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?w=800&h=600&fit=crop",
       readTime: "7 min"
@@ -76,10 +76,10 @@ const BlogGrid = () => {
         <div className="text-center mb-16">
           <p className="text-brand-muted text-sm uppercase tracking-wider mb-4">THE BLOG</p>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Explore Your Curiosity
+            Explore Geospatial Frontiers
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Deep dives on human potential, lifestyle design, & digital business.
+            Deep dives into geospatial intelligence, smart mapping, and AI in land and urban systems.
           </p>
         </div>
 
