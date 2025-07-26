@@ -18,11 +18,12 @@ const BlogCTA = () => {
         <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
           <div className="w-32 h-32 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
+              src="https://i.postimg.cc/zyZQnX6K/Snapchat-1896959815.jpg"
               alt="Raphael"
               className="w-full h-full object-cover"
             />
           </div>
+
           
           <div className="flex-1 text-center md:text-left">
             <h3 className="text-2xl font-bold text-white mb-3">Hey, I'm Raphael.</h3>
