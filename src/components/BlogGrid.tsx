@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Link from "next/link"; // Import Link
+import { Link } from "react-router-dom";
 
 interface BlogPost {
   id: string;
@@ -115,8 +115,7 @@ const BlogGrid = () => {
                   <span>{post.date}</span>
                 </div>
 
-                {/* Changed Button to Link */}
-                <Link href={`/blog/${post.slug}`} passHref>
+                <Link to={`/blog/${post.slug}`}>
                   <Button variant="link" className="p-0 h-auto text-foreground hover:text-brand-accent underline-offset-4">
                     Read Full Post
                   </Button>
