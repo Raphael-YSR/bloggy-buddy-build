@@ -1,3 +1,4 @@
+// src/blog/you-have-36-months-to-map-it-right/page.tsx
 import React from 'react';
 
 const Blog1Page = () => {
