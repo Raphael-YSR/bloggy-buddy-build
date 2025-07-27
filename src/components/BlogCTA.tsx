@@ -30,7 +30,7 @@ const BlogCTA = () => {
             <p className="text-brand-muted mb-4 leading-relaxed">
               I'm a Geomatics & GIS student passionate about the intersection of spatial data, artificial intelligence, and sustainable development.
             </p>
-            <p className="text-brand-muted leading-relaxed">
+            <p className="text-brand-muted mb-4 leading-relaxed">
               Previously, I focused on surveying, cartography, and spatial databases. Now, I write to explore how geospatial technology is reshaping land use, urban systems, and decision-making in a rapidly digitizing world.
             </p>
             <p className="text-brand-muted leading-relaxed">
