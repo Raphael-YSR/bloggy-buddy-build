@@ -33,6 +33,8 @@ const BlogCTA = () => {
             <p className="text-brand-muted leading-relaxed">
               Previously, I focused on surveying, cartography, and spatial databases. Now, I write to explore how geospatial technology is reshaping land use, urban systems, and decision-making in a rapidly digitizing world.
             </p>
+            <p className="text-brand-muted leading-relaxed">
+              I'm also the Founder & CEO of New Hathaway, a data and GIS analytics firm leveraging AI to power smarter spatial solutions for the future.            </p>
           </div>
         </div>
 
