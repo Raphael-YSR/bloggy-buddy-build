@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Link from "next/link"; // Import Link
+import { Link } from "react-router-dom";
 
 interface BlogPost {
   id: string;
@@ -94,35 +94,34 @@ const BlogGrid = () => {
         {/* Blog Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {blogPosts.map((post) => (
-            <Card key={post.id} className="bg-gradient-card border-border hover:border-brand-muted/50 transition-all duration-300 group cursor-pointer overflow-hidden">
-              <div className="aspect-video overflow-hidden">
-                <img
-                  src={post.image}
-                  alt={post.title}
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 filter grayscale"
-                />
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-foreground mb-3 line-clamp-2 group-hover:text-brand-accent transition-colors">
-                  {post.title}
-                </h3>
-                <p className="text-muted-foreground mb-4 line-clamp-2">
-                  {post.excerpt}
-                </p>
-                
-                <div className="flex items-center justify-between text-sm text-brand-muted mb-4">
-                  <span>{post.author}</span>
-                  <span>{post.date}</span>
+            <Link key={post.id} to={`/blog/${post.slug}`} className="block">
+              <Card className="bg-gradient-card border-border hover:border-brand-muted/50 transition-all duration-300 group cursor-pointer overflow-hidden h-full">
+                <div className="aspect-video overflow-hidden">
+                  <img
+                    src={post.image}
+                    alt={post.title}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 filter grayscale"
+                  />
                 </div>
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold text-foreground mb-3 line-clamp-2 group-hover:text-brand-accent transition-colors">
+                    {post.title}
+                  </h3>
+                  <p className="text-muted-foreground mb-4 line-clamp-2">
+                    {post.excerpt}
+                  </p>
+                  
+                  <div className="flex items-center justify-between text-sm text-brand-muted mb-4">
+                    <span>{post.author}</span>
+                    <span>{post.date}</span>
+                  </div>
 
-                {/* Changed Button to Link */}
-                <Link href={`/blog/${post.slug}`} passHref>
                   <Button variant="link" className="p-0 h-auto text-foreground hover:text-brand-accent underline-offset-4">
                     Read Full Post
                   </Button>
-                </Link>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            </Link>
           ))}
         </div>
 
