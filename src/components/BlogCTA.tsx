@@ -52,6 +52,9 @@ const BlogCTA = () => {
           <a href="https://linkedin.com/in/newhathaway" target="_blank" rel="noopener noreferrer">
             <Button variant="hero" size="sm">LinkedIn</Button>
           </a>
+          <a href="https://www.facebook.com/share/19rxmoniMY/" target="_blank" rel="noopener noreferrer">
+            <Button variant="hero" size="sm">Facebook</Button>
+          </a>
         </div>
 
         {/* CTA Section */}
