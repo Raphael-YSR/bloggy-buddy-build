@@ -1,4 +1,4 @@
-// src/app/blog/these-3-technologies-will-decide-your-gis-career/page.tsx
+// src/blog/these-3-technologies-will-decide-your-gis-career/page.tsx
 import React from 'react';
 
 const Blog3Page = () => {

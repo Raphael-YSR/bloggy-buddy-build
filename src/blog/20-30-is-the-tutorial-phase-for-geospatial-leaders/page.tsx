@@ -1,4 +1,4 @@
-// src/app/blog/20-30-is-the-tutorial-phase-for-geospatial-leaders/page.tsx
+// src/blog/20-30-is-the-tutorial-phase-for-geospatial-leaders/page.tsx
 import React from 'react';
 
 const Blog4Page = () => {

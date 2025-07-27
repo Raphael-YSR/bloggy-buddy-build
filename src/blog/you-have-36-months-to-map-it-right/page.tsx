@@ -3,7 +3,7 @@ import React from 'react';
 
 const Blog1Page = () => {
   return (
-    <div className="bg-background text-foreground py-16 px-4 md:px-8 lg:px-16">
+    <div className="bg-background text-foreground py-16 px-14 md:px-8 lg:px-16">
       <div className="max-w-4xl mx-auto">
         <article className="prose prose-invert lg:prose-xl">
           <p className="text-sm text-brand-muted uppercase tracking-wider mb-2">July 22, 2025</p>

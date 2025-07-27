@@ -1,4 +1,4 @@
-// src/app/blog/this-one-decision-will-define-your-gis-path/page.tsx
+// src/blog/this-one-decision-will-define-your-gis-path/page.tsx
 import React from 'react';
 
 const Blog6Page = () => {

@@ -1,4 +1,4 @@
-// src/app/blog/how-to-think-like-a-spatial-analyst/page.tsx
+// src/blog/how-to-think-like-a-spatial-analyst/page.tsx
 import React from 'react';
 
 const Blog5Page = () => {
