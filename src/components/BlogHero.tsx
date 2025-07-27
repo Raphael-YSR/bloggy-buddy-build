@@ -29,7 +29,7 @@ const BlogHero = () => {
 
         {/* Main Heading */}
         <div className="mb-8">
-          <p className="text-brand-muted text-sm uppercase tracking-wider mb-4">RAPHAEL G. K.</p>
+          <p className="text-brand-muted text-sm uppercase tracking-wider mb-4">RAPHAEL G. K. | NEW HATHAWAY</p>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Think Spatial. Build<br />
             Smart. Lead Change.
