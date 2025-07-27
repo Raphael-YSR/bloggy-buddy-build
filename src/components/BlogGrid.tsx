@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Link from "next/link"; // Import Link
 
 interface BlogPost {
   id: string;
@@ -9,6 +10,7 @@ interface BlogPost {
   date: string;
   image: string;
   readTime?: string;
+  slug?: string;
 }
 
 const BlogGrid = () => {
@@ -20,7 +22,8 @@ const BlogGrid = () => {
       author: "LVH",
       date: "July 22, 2025",
       image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=800&h=600&fit=crop",
-      readTime: "5 min"
+      readTime: "5 min",
+      slug: "you-have-36-months-to-map-it-right" // Add a slug property
     },
     {
       id: "2", 
@@ -29,7 +32,8 @@ const BlogGrid = () => {
       author: "LVH",
       date: "July 17, 2025",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
-      readTime: "8 min"
+      readTime: "8 min",
+      slug: "you-can-learn-any-gis-skill-in-2-weeks" // Add slug for all existing posts
     },
     {
       id: "3",
@@ -38,7 +42,8 @@ const BlogGrid = () => {
       author: "LVH",
       date: "July 10, 2025", 
       image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=800&h=600&fit=crop",
-      readTime: "6 min"
+      readTime: "6 min",
+      slug: "these-3-technologies-will-decide-your-gis-career"
     },
     {
       id: "4",
@@ -47,7 +52,8 @@ const BlogGrid = () => {
       author: "LVH",
       date: "July 3, 2025",
       image: "https://images.unsplash.com/photo-1473091534298-04dcbce3278c?w=800&h=600&fit=crop",
-      readTime: "10 min"
+      readTime: "10 min",
+      slug: "20-30-is-the-tutorial-phase-for-geospatial-leaders"
     },
     {
       id: "5",
@@ -56,7 +62,8 @@ const BlogGrid = () => {
       author: "LVH", 
       date: "June 26, 2025",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop",
-      readTime: "12 min"
+      readTime: "12 min",
+      slug: "how-to-think-like-a-spatial-analyst"
     },
     {
       id: "6",
@@ -65,7 +72,8 @@ const BlogGrid = () => {
       author: "LVH",
       date: "June 23, 2025",
       image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?w=800&h=600&fit=crop",
-      readTime: "7 min"
+      readTime: "7 min",
+      slug: "this-one-decision-will-define-your-gis-path"
     }
   ];
 
@@ -107,9 +115,12 @@ const BlogGrid = () => {
                   <span>{post.date}</span>
                 </div>
 
-                <Button variant="link" className="p-0 h-auto text-foreground hover:text-brand-accent underline-offset-4">
-                  Read Full Post
-                </Button>
+                {/* Changed Button to Link */}
+                <Link href={`/blog/${post.slug}`} passHref>
+                  <Button variant="link" className="p-0 h-auto text-foreground hover:text-brand-accent underline-offset-4">
+                    Read Full Post
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           ))}
