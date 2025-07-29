@@ -4,7 +4,7 @@ import React from 'react';
 const Blog4Page = () => {
   return (
     <div className="bg-background text-foreground py-20 px-6 md:px-10 lg:px-20">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-3xl mx-auto">
         <article className="prose prose-invert lg:prose-xl space-y-8">
           <p className="text-sm text-brand-muted uppercase tracking-widest mb-4">July 3, 2025</p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-8 tracking-tight">20–30 Is the Tutorial Phase for Geospatial Leaders</h1>
