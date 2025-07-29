@@ -39,24 +39,23 @@ const BlogCTA = () => {
         </div>
 
         {/* Social Links */}
-        <div className="flex justify-center gap-4 mb-16">
-          <a href="https://instagram.com/newhathaway" target="_blank" rel="noopener noreferrer">
-            <Button variant="hero" size="sm" className="relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-r before:from-purple-500 before:to-pink-500 before:translate-x-[-100%] before:transition-transform before:duration-300 hover:before:translate-x-0">Instagram</Button>
-          </a>
-          <a href="https://twitter.com/newhathaway" target="_blank" rel="noopener noreferrer">
-            <Button variant="hero" size="sm" className="relative overflow-hidden before:absolute before:inset-0 before:bg-blue-400 before:translate-x-[-100%] before:transition-transform before:duration-300 hover:before:translate-x-0">Twitter</Button>
-          </a>
-          <a href="https://github.com/Raphael-YSR" target="_blank" rel="noopener noreferrer">
-            <Button variant="hero" size="sm" className="relative overflow-hidden before:absolute before:inset-0 before:bg-gray-800 before:translate-x-[-100%] before:transition-transform before:duration-300 hover:before:translate-x-0">GitHub</Button>
-          </a>
-          <a href="https://linkedin.com/in/newhathaway" target="_blank" rel="noopener noreferrer">
-            <Button variant="hero" size="sm" className="relative overflow-hidden before:absolute before:inset-0 before:bg-blue-600 before:translate-x-[-100%] before:transition-transform before:duration-300 hover:before:translate-x-0">LinkedIn</Button>
-          </a>
-          <a href="https://www.facebook.com/share/19rxmoniMY/" target="_blank" rel="noopener noreferrer">
-            <Button variant="hero" size="sm" className="relative overflow-hidden before:absolute before:inset-0 before:bg-blue-500 before:translate-x-[-100%] before:transition-transform before:duration-300 hover:before:translate-x-0">Facebook</Button>
-          </a>
-        </div>
-
+<div className="flex justify-center gap-4 mb-16">
+  <a href="https://instagram.com/newhathaway" target="_blank" rel="noopener noreferrer">
+    <Button variant="hero" size="sm" className="relative z-10 overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-r before:from-purple-500 before:to-pink-500 before:opacity-50 before:translate-x-[-100%] before:transition-transform before:duration-300 hover:before:translate-x-0">Instagram</Button>
+  </a>
+  <a href="https://twitter.com/newhathaway" target="_blank" rel="noopener noreferrer">
+    <Button variant="hero" size="sm" className="relative z-10 overflow-hidden before:absolute before:inset-0 before:bg-blue-400 before:opacity-50 before:translate-x-[-100%] before:transition-transform before:duration-300 hover:before:translate-x-0">Twitter</Button>
+  </a>
+  <a href="https://github.com/Raphael-YSR" target="_blank" rel="noopener noreferrer">
+    <Button variant="hero" size="sm" className="relative z-10 overflow-hidden before:absolute before:inset-0 before:bg-gray-800 before:opacity-50 before:translate-x-[-100%] before:transition-transform before:duration-300 hover:before:translate-x-0">GitHub</Button>
+  </a>
+  <a href="https://linkedin.com/in/newhathaway" target="_blank" rel="noopener noreferrer">
+    <Button variant="hero" size="sm" className="relative z-10 overflow-hidden before:absolute before:inset-0 before:bg-blue-600 before:opacity-50 before:translate-x-[-100%] before:transition-transform before:duration-300 hover:before:translate-x-0">LinkedIn</Button>
+  </a>
+  <a href="https://www.facebook.com/share/19rxmoniMY/" target="_blank" rel="noopener noreferrer">
+    <Button variant="hero" size="sm" className="relative z-10 overflow-hidden before:absolute before:inset-0 before:bg-blue-500 before:opacity-50 before:translate-x-[-100%] before:transition-transform before:duration-300 hover:before:translate-x-0">Facebook</Button>
+  </a>
+</div>
         {/* CTA Section */}
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
