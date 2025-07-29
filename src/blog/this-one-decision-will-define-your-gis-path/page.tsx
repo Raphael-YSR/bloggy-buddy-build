@@ -3,28 +3,28 @@ import React from 'react';
 
 const Blog6Page = () => {
   return (
-    <div className="bg-background text-foreground py-16 px-4 md:px-8 lg:px-16">
+    <div className="bg-background text-foreground py-20 px-6 md:px-10 lg:px-20">
       <div className="max-w-4xl mx-auto">
-        <article className="prose prose-invert lg:prose-xl">
-          <p className="text-sm text-brand-muted uppercase tracking-wider mb-2">June 23, 2025</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">This One Decision Will Define Your GIS Path</h1>
-          <p className="text-xl text-muted-foreground mb-8">Why clarity in specialization can shape your entire career. Stop being a generalist; become lethal.</p>
+        <article className="prose prose-invert lg:prose-xl space-y-8">
+          <p className="text-sm text-brand-muted uppercase tracking-widest mb-4">June 23, 2025</p>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-8 tracking-tight">This One Decision Will Define Your GIS Path</h1>
+          <p className="text-xl text-muted-foreground mb-10 leading-relaxed">Why clarity in specialization can shape your entire career. Stop being a generalist; become lethal.</p>
 
-          <p>
+          <p className="leading-loose">
             You’re stuck in a swamp of mediocrity. Not because you lack intelligence, but because you lack precision. In a world screaming for specialists, most geospatial professionals are still trying to be everything to everyone. They’re generalists. They can do a little bit of everything, which means they’re truly exceptional at nothing.
           </p>
-          <p>
+          <p className="leading-loose">
             This isn’t about being "well-rounded." This is about being effective. Being valuable. Being a "main character" in your own career, not just another replaceable cog in the machine [cite: uploaded:image_3f10b2.png]. The one decision that will dictate your trajectory in GIS, more than any other, is your commitment to ruthless, unapologetic specialization.
           </p>
 
-          <h2>The Generalist's Trap: A Slow Death</h2>
-          <p>
+          <h2 className="text-3xl font-extrabold mt-12 mb-6 tracking-tight">The Generalist's Trap: A Slow Death</h2>
+          <p className="leading-loose">
             The default path for many in GIS is to be a jack-of-all-trades. Learn a bit of cartography, dabble in remote sensing, touch on spatial databases, maybe write a few lines of Python. Sounds well-intentioned, right? It's not. It's a trap.
           </p>
-          <p>
+          <p className="leading-loose">
             When you're a generalist, you're competing with everyone. Your skills are commoditized. You're easily replaced by the next wave of graduates or, more terrifyingly, by AI and automation [cite: July 10, 2025 blog post]. You're stuck in a "first-tier" mindset, trying to fit into predefined roles, rather than forging a unique path [cite: uploaded:image_3f10b2.png].
           </p>
-          <ul>
+          <ul className="space-y-4">
             <li>
               <strong>No Deep Expertise:</strong> You skim the surface, never truly understanding the nuances of a complex problem.
             </li>
@@ -35,18 +35,18 @@ const Blog6Page = () => {
               <strong>Burnout:</strong> Constantly switching contexts, learning new surface-level skills, without the satisfaction of true mastery, leads to exhaustion and a lack of fulfillment.
             </li>
           </ul>
-          <p>
+          <p className="leading-loose">
             You become an NPC, responding to whatever task is thrown at you, without the agency to define your own contribution.
           </p>
 
-          <h2>The Specialist's Edge: Becoming Indispensable</h2>
-          <p>
+          <h2 className="text-3xl font-extrabold mt-12 mb-6 tracking-tight">The Specialist's Edge: Becoming Indispensable</h2>
+          <p className="leading-loose">
             A true specialist in GIS isn't just someone who knows a lot about one thing. It's someone who understands a specific problem domain so deeply, and can apply spatial intelligence to it so effectively, that they become indispensable. They are the ones who forge their own path, overcome adversity, and create a story that we can’t help but marvel at [cite: uploaded:image_3f10b2.png].
           </p>
-          <p>
+          <p className="leading-loose">
             Think:
           </p>
-          <ul>
+          <ul className="space-y-4">
             <li>
               The expert in 3D urban modeling for digital twins.
             </li>
@@ -60,15 +60,15 @@ const Blog6Page = () => {
               The expert in route optimization for last-mile delivery.
             </li>
           </ul>
-          <p>
+          <p className="leading-loose">
             These aren't just job titles; they are problem solvers. They've cultivated a "floodlight consciousness" [cite: uploaded:image_3f1110.png] within a niche, seeing connections and opportunities where generalists see only noise.
           </p>
 
-          <h3>How to Forge Your Niche and Become Lethal</h3>
-          <p>
+          <h3 className="text-2xl font-bold mt-10 mb-5 tracking-tight">How to Forge Your Niche and Become Lethal</h3>
+          <p className="leading-loose">
             This isn't about picking a random topic. It's about combining your inherent interests with market demand and your unique ability to execute.
           </p>
-          <ol>
+          <ol className="space-y-6">
             <li>
               <strong>Identify Your Obsession (Awareness):</strong> What geospatial problem or technology genuinely excites you? What could you spend hours researching, building, and perfecting without external motivation? Your "deep, intrinsic reason to take a leap of faith into the unknown" [cite: uploaded:image_3f10b2.png] is crucial here. This is where your true "awareness" leads you.
             </li>
@@ -80,11 +80,11 @@ const Blog6Page = () => {
             </li>
           </ol>
 
-          <h2>The Power of "No"</h2>
-          <p>
+          <h2 className="text-3xl font-extrabold mt-12 mb-6 tracking-tight">The Power of "No"</h2>
+          <p className="leading-loose">
             Becoming a specialist means saying "no" to everything else. Say no to generic projects that don't align with your focus. Say no to opportunities that dilute your expertise. Say no to the noise of being a generalist. This clarity will allow you to pour all your energy into becoming the undisputed authority in your chosen domain.
           </p>
-          <p>
+          <p className="leading-loose">
             Your path is not to be assigned; it is to be created. This one decision — to specialize, to go deep, to become lethal in a specific area of geospatial intelligence — will define your impact, your income, and your level of fulfillment. Stop playing small. Stop being a generalist. Choose your niche, and dominate it.
           </p>
         </article>
