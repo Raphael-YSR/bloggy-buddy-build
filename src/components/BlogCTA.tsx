@@ -125,11 +125,16 @@ const BlogCTA = () => {
 
           {/* Newsletter Signup */}
           {status === "success" ? (
-            <div className="max-w-md mx-auto mb-8 py-4">
-              <p className="text-white font-semibold text-lg mb-1">
+            <div className="max-w-md mx-auto mb-8 py-6">
+              <p
+                className="font-bold text-2xl mb-2"
+                style={{ color: "#3b9eff" }}
+              >
                 You're in. ✦
               </p>
-              <p className="text-brand-muted text-sm">{message}</p>
+              <p className="text-white/80 text-base">
+                Check your inbox — and your spam folder if you don't see it.
+              </p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="max-w-md mx-auto mb-8">
