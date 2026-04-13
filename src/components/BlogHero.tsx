@@ -44,6 +44,10 @@ const BlogHero = () => {
             <p className="text-white font-semibold text-lg mb-1">
               You're in. ✦
             </p>
+            <p className="text-brand-muted text-sm mt-1">
+              Check your inbox — if you do not see it, look in spam and mark it
+              as not spam.
+            </p>
             <p className="text-brand-muted text-sm">{message}</p>
           </div>
         ) : (
