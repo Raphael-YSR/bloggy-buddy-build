@@ -10,14 +10,32 @@ interface RequireAuthProps {
 
 function useAdminFavicon() {
   useEffect(() => {
-    const link = document.querySelector<HTMLLinkElement>("link[rel~='icon']");
-    if (!link) return;
+    // Try all common favicon link selectors
+    const selectors = [
+      "link[rel='icon']",
+      "link[rel='shortcut icon']",
+      "link[rel~='icon']",
+    ];
+    const link = selectors.reduce<HTMLLinkElement | null>(
+      (found, sel) => found ?? document.querySelector<HTMLLinkElement>(sel),
+      null,
+    );
 
-    const original = link.href;
-    link.href = "/admin.ico";
+    if (link) {
+      const original = link.href;
+      link.href = "/admin.ico";
+      return () => {
+        link.href = original;
+      };
+    }
 
+    // If no existing link tag, create one
+    const newLink = document.createElement("link");
+    newLink.rel = "icon";
+    newLink.href = "/admin.ico";
+    document.head.appendChild(newLink);
     return () => {
-      link.href = original;
+      document.head.removeChild(newLink);
     };
   }, []);
 }
